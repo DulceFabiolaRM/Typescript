@@ -1,12 +1,12 @@
-(()=>{
-    const error=(message:string):never=>{
-        throw new Error(message);
-        
+(() => {
+  const error = (message: string): never | number => {
+    if (false) {
+      throw new Error(message);
     }
 
-    error('Auxilio');
-    console.log('Hola Mundo')
-    
-})()
+    return 1;
+  };
 
-
+  error("Auxilio");
+  console.log("Hola Mundo");
+})();
