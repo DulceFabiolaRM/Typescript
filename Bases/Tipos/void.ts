@@ -1,14 +1,17 @@
-(()=>{
+(() => {
     //Función tradicional
-    function callBatman():void{
+    function callBatman(): void {
         return
     }
 
     //Función de flecha
-    const callSuperman=()=>{
-        return 
+    const callSuperman = (): void => {
+        return
     }
-const a=callBatman()
-console.log(a)
+    const a = callBatman()
+    console.log(a)
 
 })()
+
+
+

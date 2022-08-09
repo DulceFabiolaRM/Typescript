@@ -19,7 +19,7 @@
   console.log(poder.toFixed(2), vision.toUpperCase());
 
   //Destructurar argumentos (avengers: Avengers)
-  //ironmas y el resto de las propiedades
+  //ironman y el resto de las propiedades
   const printAvenger = ({ ironman, ...resto }: Avengers) => {
     console.log(resto);
   };
