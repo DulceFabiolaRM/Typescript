@@ -12,5 +12,7 @@
     console.log(typeof activarBS)
 
     console.log('hola mundo')
+    console.log('hola mundo')
+    console.log('hola mundo')
     const heroName=returnName()
 })()
