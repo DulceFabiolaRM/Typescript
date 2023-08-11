@@ -5,6 +5,10 @@
         return hero
     }
 
+    for (let index = 0; index < [].length; index++) {
+        
+    }
+
     const activarBS=():string=>{
         return "Batiseñal activa";
     }
