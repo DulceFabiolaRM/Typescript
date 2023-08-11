@@ -9,6 +9,7 @@
         return "Batiseñal activa";
     }
  
-    console.log(typeof activarBS
+    console.log(typeof activarBS)
+
     const heroName=returnName()
 })()
